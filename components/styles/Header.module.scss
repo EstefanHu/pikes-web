@@ -1,0 +1,22 @@
+@import './../../styles/Vars.module.scss';
+.HeaderWrapper {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    .Header {
+        max-width: 1300px;
+        width: 100%;
+        padding: 0 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            span {
+                color: $--clr-primary;
+            }
+        }
+    }
+}
